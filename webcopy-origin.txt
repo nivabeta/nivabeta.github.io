@@ -1,0 +1,176 @@
+Uri: https://cdn.jsdelivr.net/gh/noelboss/featherlight@1.5.0/release/featherlight.gallery.min.css
+File Name: C:\Downloaded Web Sites\www.nivagame.com\gh\noelboss\featherlight@1.5.0\release\featherlight.gallery.min.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/gh/noelboss/featherlight@1.5.0/release/featherlight.gallery.min.js
+File Name: C:\Downloaded Web Sites\www.nivagame.com\gh\noelboss\featherlight@1.5.0\release\featherlight.gallery.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/gh/noelboss/featherlight@1.5.0/release/featherlight.min.css
+File Name: C:\Downloaded Web Sites\www.nivagame.com\gh\noelboss\featherlight@1.5.0\release\featherlight.min.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/gh/noelboss/featherlight@1.5.0/release/featherlight.min.js
+File Name: C:\Downloaded Web Sites\www.nivagame.com\gh\noelboss\featherlight@1.5.0\release\featherlight.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css
+File Name: C:\Downloaded Web Sites\www.nivagame.com\ajax\libs\cookieconsent2\3.0.3\cookieconsent.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js
+File Name: C:\Downloaded Web Sites\www.nivagame.com\ajax\libs\cookieconsent2\3.0.3\cookieconsent.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css?family=Arimo
+File Name: C:\Downloaded Web Sites\www.nivagame.com\css-1
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/arimo/v25/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcABrE.ttf
+File Name: C:\Downloaded Web Sites\www.nivagame.com\s\arimo\v25\P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcABrE.ttf
+Content Type: font/ttf
+
+Uri: https://www.googletagmanager.com/gtag/js?id=UA-86665046-1
+File Name: C:\Downloaded Web Sites\www.nivagame.com\gtag\js
+Content Type: application/javascript
+
+Uri: https://www.nivagame.com/
+File Name: C:\Downloaded Web Sites\www.nivagame.com\index.htm
+Content Type: text/html
+
+Uri: https://www.nivagame.com/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\www.nivagame.com\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://www.nivagame.com/css/main_release.css
+File Name: C:\Downloaded Web Sites\www.nivagame.com\css\main_release.css
+Content Type: text/css
+
+Uri: https://www.nivagame.com/fonts/glyphicons-halflings-regular.eot
+File Name: C:\Downloaded Web Sites\www.nivagame.com\fonts\glyphicons-halflings-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.nivagame.com/fonts/glyphicons-halflings-regular.eot?
+File Name: C:\Downloaded Web Sites\www.nivagame.com\fonts\glyphicons-halflings-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.nivagame.com/fonts/glyphicons-halflings-regular.svg
+File Name: C:\Downloaded Web Sites\www.nivagame.com\fonts\glyphicons-halflings-regular.svg
+Content Type: image/svg+xml
+
+Uri: https://www.nivagame.com/fonts/glyphicons-halflings-regular.ttf
+File Name: C:\Downloaded Web Sites\www.nivagame.com\fonts\glyphicons-halflings-regular.ttf
+Content Type: font/ttf
+
+Uri: https://www.nivagame.com/fonts/glyphicons-halflings-regular.woff
+File Name: C:\Downloaded Web Sites\www.nivagame.com\fonts\glyphicons-halflings-regular.woff
+Content Type: font/woff
+
+Uri: https://www.nivagame.com/fonts/glyphicons-halflings-regular.woff2
+File Name: C:\Downloaded Web Sites\www.nivagame.com\fonts\glyphicons-halflings-regular.woff2
+Content Type: font/woff2
+
+Uri: https://www.nivagame.com/img/header/niva-forest.jpg
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\header\niva-forest.jpg
+Content Type: image/jpeg
+
+Uri: https://www.nivagame.com/img/header/niva-youtube.jpg
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\header\niva-youtube.jpg
+Content Type: image/jpeg
+
+Uri: https://www.nivagame.com/img/icons/favicons/apple-touch-icon.png
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\icons\favicons\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://www.nivagame.com/img/icons/favicons/favicon-16x16.png
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\icons\favicons\favicon-16x16.png
+Content Type: image/png
+
+Uri: https://www.nivagame.com/img/icons/favicons/favicon-32x32.png
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\icons\favicons\favicon-32x32.png
+Content Type: image/png
+
+Uri: https://www.nivagame.com/img/icons/favicons/favicon.ico
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\icons\favicons\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://www.nivagame.com/img/icons/favicons/manifest.json
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\icons\favicons\manifest.json
+Content Type: application/json
+
+Uri: https://www.nivagame.com/img/icons/favicons/safari-pinned-tab.svg
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\icons\favicons\safari-pinned-tab.svg
+Content Type: image/svg+xml
+
+Uri: https://www.nivagame.com/img/icons/leaf-about.png
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\icons\leaf-about.png
+Content Type: image/png
+
+Uri: https://www.nivagame.com/img/icons/leaf-contact.png
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\icons\leaf-contact.png
+Content Type: image/png
+
+Uri: https://www.nivagame.com/img/icons/leaf-play.png
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\icons\leaf-play.png
+Content Type: image/png
+
+Uri: https://www.nivagame.com/img/icons/NIVA_FB.png
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\icons\NIVA_FB.png
+Content Type: image/png
+
+Uri: https://www.nivagame.com/img/icons/NIVA_TW.png
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\icons\NIVA_TW.png
+Content Type: image/png
+
+Uri: https://www.nivagame.com/img/icons/NIVA_YT.png
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\icons\NIVA_YT.png
+Content Type: image/png
+
+Uri: https://www.nivagame.com/img/icons/yt_play.png
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\icons\yt_play.png
+Content Type: image/png
+
+Uri: https://www.nivagame.com/img/logos/niva-logo.png
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\logos\niva-logo.png
+Content Type: image/png
+
+Uri: https://www.nivagame.com/img/screenshots/niva_screenshot_01_thumb.jpg
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\screenshots\niva_screenshot_01_thumb.jpg
+Content Type: image/jpeg
+
+Uri: https://www.nivagame.com/img/screenshots/niva_screenshot_02_thumb.jpg
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\screenshots\niva_screenshot_02_thumb.jpg
+Content Type: image/jpeg
+
+Uri: https://www.nivagame.com/img/screenshots/niva_screenshot_03_thumb.jpg
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\screenshots\niva_screenshot_03_thumb.jpg
+Content Type: image/jpeg
+
+Uri: https://www.nivagame.com/img/screenshots/niva_screenshot_04_thumb.jpg
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\screenshots\niva_screenshot_04_thumb.jpg
+Content Type: image/jpeg
+
+Uri: https://www.nivagame.com/img/screenshots/niva_screenshot_05_thumb.jpg
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\screenshots\niva_screenshot_05_thumb.jpg
+Content Type: image/jpeg
+
+Uri: https://www.nivagame.com/img/screenshots/niva_screenshot_06_thumb.jpg
+File Name: C:\Downloaded Web Sites\www.nivagame.com\img\screenshots\niva_screenshot_06_thumb.jpg
+Content Type: image/jpeg
+
+Uri: https://www.nivagame.com/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\www.nivagame.com\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://www.nivagame.com/js/jquery.easing.min.js
+File Name: C:\Downloaded Web Sites\www.nivagame.com\js\jquery.easing.min.js
+Content Type: application/javascript
+
+Uri: https://www.nivagame.com/js/jquery.js
+File Name: C:\Downloaded Web Sites\www.nivagame.com\js\jquery.js
+Content Type: application/javascript
+
+Uri: https://www.nivagame.com/js/scrolling-nav.js
+File Name: C:\Downloaded Web Sites\www.nivagame.com\js\scrolling-nav.js
+Content Type: application/javascript
+

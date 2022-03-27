@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore a mesmerizing forest and use your powers as a mighty forest god to restore the harmony.">
+    <meta name="author" content="Team NIVA">
+    <meta name="keywords" content="artgame, exploration, forest, forest-god, harmony, nature, pacifistic, niva, relaxing">
+    <meta itemprop="name" content="NIVA | pacifistic exploration art game">
+    <meta itemprop="description" content="Explore a mesmerizing forest and use your powers as a mighty forest god to restore the harmony.">
+    <link rel="canonical" href="index.htm">
+    <title>NIVA</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Featherlight CSS -->
+    <link href="gh/noelboss/featherlight%401.5.0/release/featherlight.min.css" type="text/css" rel="stylesheet">
+    <link href="gh/noelboss/featherlight%401.5.0/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/main_release.css" rel="stylesheet"> <!--TODO:Set to normal CSS-->
+    <!-- Google Fonts -->
+    <link href="css-1?family=Arimo" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="img/icons/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/icons/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/icons/favicons/manifest.json">
+    <link rel="mask-icon" href="img/icons/favicons/safari-pinned-tab.svg" color="#752a66">
+    <link rel="shortcut icon" href="img/icons/favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="NIVA">
+    <meta name="application-name" content="NIVA">
+    <meta name="msapplication-config" content="/img/icons/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- cookie consent -->
+    <link rel="stylesheet" type="text/css" href="ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+    <script src="ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000"
+        },
+        "button": {
+          "background": "#ffffff"
+        }
+      }
+    })});
+    </script>
+
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll navbar-toggle" href="#page-top">NIVA</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#page-top">HOME</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#video">VIDEO</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#play">PLAY</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+    <!-- HOME Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <!-- Hidden Heading -->
+                    <h1 class="hidden">NIVA</h1>
+                    <!-- LOGO -->
+                    <div class="niva-logo">
+                        <img src="img/logos/niva-logo.png" alt="NIVA Logo">
+                    </div>
+
+					<!-- Award Overlays -->
+					<div id="niva-awards">
+                    </div>
+
+					 <script type="text/javascript">
+						//Load images into "niva-awards" div
+						var src = document.getElementById("niva-awards");
+						var img = [];
+						for(var i=1; i<=4; i++){
+							img[i] = document.createElement("img");
+							img[i].src="img/header/overlay/award_"+i+".png";
+							if(i % 2 == 0){
+								img[i].className = "right";
+							} else{
+								img[i].className = "left";
+							}
+							src.appendChild(img[i]);
+						}
+					</script>
+
+                    <!-- Available Button -->
+                    <a href="#play" role="button" class="btn-available page-scroll btn btn-transparent btn-lg">AVAILABLE NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- VIDEO Section -->
+    <section id="video" class="video-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="startFrame_container" class="embed-responsive embed-responsive-16by9">
+                        <!--YouTube link-->
+                        <img id="yt_overlay" src="img/icons/yt_play.png">
+                        <img id="startFrame" class="embed-responsive-item" src="img/header/niva-youtube.jpg" data-video="https://www.youtube.com/embed/Ytc2BqBhHXg?rel=0&autoplay=1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row text-justify">
+                <div class="col-lg-12">
+                    <!-- LeafAbout Symbol -->
+                    <img class="leaf-icon" src="img/icons/leaf-about.png" alt="About Icon">
+                    <h2>ABOUT</h2>
+                    <article>
+                        <strong>NIVA  is  a  pacifistic  exploration  art  game.</strong>
+                    </article>
+                    <article>
+                        The  player  slips  into  the  role  of  a  mighty  forest  god  to  restore  the  harmony  in  a  mesmerizing  forest  and  relieve  it  of  a  mysterious  infestation.  This  shuddersome,  mothlike  infestation  is  drawn  to  the  conflicts  of  the  forest's  inhabitants.  Through  observation  and  by  using  the  abilities  of  nurturing  and  withering  fascinating  plants  the  player  can  solve said conflicts. NIVA's scenic art style, relaxing music and simple but intriguing game mechanics invite to explore the forest and have a rest from the stressful everyday life.
+                    </article>
+                </div>
+                <!-- Image gallery -->
+                <div class="gallery-section col-lg-12">
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail gallery" href="#" data-featherlight="img/screenshots/niva_screenshot_01.jpg">
+                            <img class="img-responsive" src="img/screenshots/niva_screenshot_01_thumb.jpg" alt="NIVA Screenshot 01">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail gallery" href="#" data-featherlight="img/screenshots/niva_screenshot_02.jpg">
+                            <img class="img-responsive" src="img/screenshots/niva_screenshot_02_thumb.jpg" alt="NIVA Screenshot 02">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail gallery" href="#" data-featherlight="img/screenshots/niva_screenshot_03.jpg">
+                            <img class="img-responsive" src="img/screenshots/niva_screenshot_03_thumb.jpg" alt="NIVA Screenshot 03">
+                        </a>
+                    </div>
+                    <!-- Row2 -->
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail gallery" href="#" data-featherlight="img/screenshots/niva_screenshot_04.jpg">
+                            <img class="img-responsive" src="img/screenshots/niva_screenshot_04_thumb.jpg" alt="NIVA Screenshot 04">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail gallery" href="#" data-featherlight="img/screenshots/niva_screenshot_05.jpg">
+                            <img class="img-responsive" src="img/screenshots/niva_screenshot_05_thumb.jpg" alt="NIVA Screenshot 05">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail gallery" href="#" data-featherlight="img/screenshots/niva_screenshot_06.jpg">
+                            <img class="img-responsive" src="img/screenshots/niva_screenshot_06_thumb.jpg" alt="NIVA Screenshot 06">
+                        </a>
+                    </div>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
+    <!-- PLAY Section -->
+    <section id="play" class="play-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row text-left">
+                        <div class="col-lg-4 col-md-4 col-xs-12">
+                            <!-- LeafPlay Symbol -->
+                            <img class="leaf-icon" src="img/icons/leaf-play.png" alt="Play Icon">
+                            <h2>PLAY</h2>
+                        </div>
+                    </div>
+                    <div class="row text-justify">
+                        <div class="col-lg-4 col-md-4 col-xs-12">
+                            <article>
+                                NIVA is a downloadable game for Windows. You can access the Beta version of the game for free from the download button here. If you like our game and want to support it, you can test the game until the full version is released and report any errors or suggestions you find to "Sehâ#0001" via Discord. Note that the game is still in beta and there may be bugs. Our developer team is working hard to improve the game.
+                            </article>
+                        </div>
+                        <div class="col-lg-3 col-lg-offset-4 col-md-3 col-md-offset-4 col-xs-10 col-xs-offset-0">
+                            <a href="https://bit.ly/nivabeta" target="_blank"><button id="donate-niva" class="download-button btn btn-default btn-block" role="button">DOWNLOAD</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <!-- LeafContact Symbol -->
+                    <img class="leaf-icon" src="img/icons/leaf-contact.png" alt="Contact Icon">
+                    <h2>CONTACT</h2>
+                    <a data-toggle="modal" data-target="#formModal" class="btn btn-default-blue" role="button">WRITE US A MAIL!</a>
+                    <!-- Form Modal -->
+                    <div id="formModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <form id="contactform" method="POST">
+                                    <input type="text" name="name" placeholder="Your name">
+                                    <input type="email" name="_replyto" placeholder="Your email">
+                                    <input type="hidden" name="_subject" value="Website contact">
+                                    <textarea name="message" placeholder="Your message" rows="10" cols="60"></textarea>
+                                    <input type="text" name="_gotcha" style="display:none">
+                                    <input class="btn btn-default" type="submit" value="Send" role="button">
+                                </form>
+                                <script>
+                                    var contactform = document.getElementById('contactform');
+                                    contactform.setAttribute('action', '//formspree.io/' + 'info' + '@' + 'nivagame' + '.' + 'com');
+                                </script>
+                                <div class="modal-footer">
+                                </div>
+                            </div><!-- /.content -->
+                        </div><!-- /.dialog -->
+                    </div><!-- /.form -->
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 person">
+                    <strong>Verena Demel</strong><br>
+                    Creative Direction, Concept Art, Texturing<br>
+                    <a href="http://verenademelca.daportfolio.com/" target="_blank" alt="Portfolio"><i>Portfolio</i></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 person">
+                    <strong>Derick Fuego</strong><br>
+                    Software Engineer<br>
+                    <a href="https://at.linkedin.com/in/radomir-dinic-830507a0" target="_blank" alt="Portfolio"><i>Portfolio</i></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 person">
+                    <strong>Klaus Fehkührer</strong><br>
+                    Game Design Lead, Visual Effects, Organization<br>
+                    <a href="http://xprs.imcreator.com/free/klaus_fehkuehrer/portfolio" target="_blank" alt="Portfolio"><i>Portfolio</i></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 person">
+                    <strong>Wilfried Gruber</strong><br>
+                    Game Design, Modelling, Rigging, Animation<br>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 person">
+                    <strong>David Hofbauer</strong><br>
+                    Concept Art, Texturing<br>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 person">
+                    <strong>Michael Huber</strong><br>
+                    Game Design, Software Engineer<br>
+                    <a href="https://portfolio.multimediatechnology.at/users/michael-huber" target="_blank" alt="Portfolio"><i>Portfolio</i></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 person">
+                    <strong>Timo Jagersberger</strong><br>
+                    Music & Sound Design<br>
+                    <a href="http://www.timojagersberger.com/" target="_blank" alt="Portfolio"><i>Portfolio</i></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 person">
+                    <strong>Bernhard Öhlinger</strong><br>
+                    Software Engineer<br>
+                    <a href="https://portfolio.multimediatechnology.at/users/bernhard-oehlinger" target="_blank" alt="Portfolio"><i>Portfolio</i></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 person">
+                    <strong>Sebastian Rangger</strong><br>
+                    Game Design, Level Design, Modelling, Rigging, Animation<br>
+                    <a href="http://www.slyce.at" target="_blank" alt="Portfolio"><i>Portfolio</i></a>
+                </div>
+            </div><!-- /.row-->
+
+
+            <!-- Impressum Modal -->
+            <div id="impressumModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content text-center">
+                        <p>
+                            <h2>Legal</h2>
+                            Sebastian Rangger<br>
+                            5412 Urstein, Austria<br>
+                            <br>
+                            <a href="mailto:niva@slyce.at?Subject=NIVA" target="_top">niva@slyce.at</a><br>
+                            <br>
+                            <br>This website uses Google Analytics, a service for<br>web analysis by Google Inc. <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank" alt="Google Privacy Policy">Privacy Policy</a>
+                        
+
+                    </div><!-- /.content -->
+                </div><!-- /.dialog -->
+            </div><!-- /.form -->
+
+
+
+        </div><!-- /.container-->
+    </section>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <!-- Featherlight -->
+    <script src="gh/noelboss/featherlight%401.5.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="gh/noelboss/featherlight%401.5.0/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        $('a.gallery').featherlightGallery({
+            openSpeed: 300
+        });
+    </script>
+
+    <!-- YouTube start image -->
+    <script>
+        //click image
+        $('#startFrame').click(function () {
+            var video = '<iframe src="' + $(this).attr('data-video') + '"></iframe>';
+            $(this).replaceWith(video);
+        });
+
+        //click button
+        $('#yt_overlay').click(function () {
+            var video = '<iframe src="' + $('#startFrame').attr('data-video') + '"></iframe>';
+            $('#startFrame').replaceWith(video);
+        });
+
+        //click container (always hide the button)
+        $("#startFrame_container").click(function () {
+            $('#yt_overlay').hide();
+        });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="gtag/js?id=UA-86665046-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-86665046-1', { 'anonymize_ip': true });
+    </script>
+
+</body>
+</html>

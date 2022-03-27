@@ -1,0 +1,425 @@
+/*
+
+Color Index
+
+lila
+#752A66
+#rgb(117,42,102)
+
+beige
+#F7F697
+
+darkblue
+#0C2466
+
+lightblue
+#1a9a8d
+#rgb(26,154,141)
+
+*/
+
+
+/* GENERAL STYLING */
+body {
+    width: 100%;
+    height: 100%;
+    
+    /* main text color */
+    color: #752A66;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Fonts */
+body {
+    font-family: 'Arimo', sans-serif;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 10px 0;    /* NAVbar height */
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+    
+    .navbar ul {
+        width: 75%;
+        margin: 0 30%;
+    }
+    
+}
+
+.navbar {
+    background: #752A66;
+    z-index: 10000;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-align: right;
+    font-size: 120%;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    opacity: 0.85;
+}
+
+.navbar-fixed-top{
+    border-width: 0px;
+}
+
+.navbar-brand {
+    border:0px;
+    height: auto;
+}
+
+.navbar-header button {
+    border-width:2px;
+}
+
+.navbar-header a.navbar-brand {
+    color: white;
+}
+
+.navbar-header a.navbar-brand:focus,
+.navbar-header a.navbar-brand:hover
+{
+    background: none;
+    color: #333;
+    color: red;
+}
+
+ul.nav li a.page-scroll:focus {
+    color: white;
+}
+
+.navbar-header button.navbar-toggle:hover > .icon-bar {
+    background-color: #333;
+}
+
+/* selected navbar item */
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color:transparent;
+    opacity: 0.65;
+}
+
+
+/* Logo & Icons */
+.niva-logo img {
+    position: absolute;
+    top: -60px;
+    max-width: 400px;
+    margin-left: -200px;
+	z-index: 3;
+}
+
+.leaf-icon {
+    width: 100px;
+    margin-bottom: -5px;
+}
+
+/*** Awards ***/
+#niva-awards {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+	top: 60px;
+}
+
+#niva-awards img {
+	margin-bottom: 15px;
+}
+
+#niva-awards img.left {
+	float: left;
+	padding-right: 25%;
+}
+
+#niva-awards img.right {
+	float: right;
+	padding-right: 20px;
+}
+
+/* SECTIONS */
+.video-section, .about-section, .play-section {
+    height: auto;
+    padding-top: 150px;
+    background-color: #F7F697;
+}
+
+/* HOME SECTION */
+.home-section {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background: #ffffff url("../img/header/niva-forest.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    max-height: 650px;
+}
+
+.btn-transparent {
+    background: rgba(117,42,102,0.75);
+    color:white;
+    padding: 20px;
+    border-radius: 0px;
+    margin-top:340px;
+    max-width: 100%;
+	z-index: 1;
+    position: relative;
+}
+
+.btn-available:hover,
+.btn-available:focus,
+.btn-available:active {
+    color: white;
+}
+
+
+.btn-default, .btn-default-blue, .modal input.btn {
+    background: rgba(117,42,102,0.0);
+    font-size: 130%;
+    color:#752A66;
+    border-radius: 0px;
+    border: 2px solid #752A66;
+    margin-bottom: 10px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.btn-default:hover, .btn-default-blue:hover, .modal input.btn:hover {
+    background: rgba(117,42,102,1.0);
+    border-color: #752A66;
+    color:white;
+}
+
+.btn-default-blue {
+    background: rgba(26,154,141,0.0);
+    color: #1a9a8d;
+    border-color: #1a9a8d;
+    border-width: 1px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.btn-default-blue:hover {
+    background: rgba(26,154,141,1.0);
+    border-color: #1a9a8d;
+    border-width: 1px;
+}
+
+
+
+/* VIDEO SECTION */
+img#yt_overlay {
+    position: absolute;
+    width: 80px;
+    top: 50%;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: -23px;
+    z-index: 100;
+    transition: all 0.5s ease;
+}
+
+#startFrame_container:hover > img#yt_overlay {
+    opacity:0.2;
+}
+
+
+/* ABOUT SECTION */
+.about-section article {
+    margin-bottom: 15px;
+}
+
+.gallery-section {
+    margin-top: 55px;
+}
+
+/* PLAY SECTION */
+.play-section {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.play-section article {
+    margin-bottom: 15px;
+}
+
+.play-section article a {
+    color: #752A66;
+}
+
+.download-button {
+    width: 272px;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+    padding-top: 100px;
+    background: #0C2466;
+    color: #1a9a8d;
+}
+
+.person {
+    padding: 30px;
+    height: 120px;
+    padding: 5px;
+}
+
+.person a {
+    color: #1a9a8d;
+}
+
+.socials {
+    margin-top: 70px;
+    height: 90px;
+}
+
+.socials img {
+    width: 50px;
+    padding: 4px;
+}
+
+.socials img:hover {
+    border: 2px solid #0C2466;
+}
+
+/* Impressum */
+.impressum {
+    padding: 30px;
+    height: 100px;
+    padding: 5px;
+}
+
+.impressum a {
+    color: #1a9a8d;
+}
+
+/* Form Modal */
+body.modal-open {
+    overflow: visible;
+}
+
+.modal-content {
+    border-radius: 0px;
+    background:#F7F697;
+    padding: 5px;
+    color:#752A66;
+    
+    
+    z-index: 11000;
+    top: 50px;
+}
+
+.modal-content input, .modal-content textarea {
+    float: left;
+    width: 100%;
+    padding:5px;
+    margin-bottom:3px;
+    border: 0px;
+    background:rgba(0,0,0,0.1);
+}
+
+.modal input.btn {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.modal-content textarea {
+    resize: none;
+}
+
+/* Modal itch.io */
+.modal iframe {
+    width: 100%;
+    height: 100%;
+    height: 600px;
+    background: red;
+}
+
+/* Thumbnail & Gallery styling */
+.thumb {
+    padding: 5px;
+}
+
+.thumbnail {
+    padding:0px;
+    margin:0px;
+    border-radius: 0px;
+}
+
+div.featherlight .featherlight-content {
+   padding:0px;
+    border:0;
+}
+
+.featherlight-close-icon {
+    display: none;
+}
+
+.featherlight-next, .featherlight-previous {
+    margin-top:-25px;
+}
+.featherlight-previous {
+    left: 0px;
+}
+
+.featherlight-next{
+    right: 0px;
+}
+
+/* Additional responsive measures */
+/* very small screens */
+@media(max-width:767px){
+    .niva-logo img {
+        max-width: 300px;
+        margin-left: -156px;
+    }
+	
+	/*** Awards ***/
+	#niva-awards {
+	width: 90%;
+	height: 100%;
+	top: 160px;
+	}
+
+	#niva-awards img {
+		max-width: 25%;
+	}
+
+	#niva-awards img.left {
+		padding: 0;
+		margin: 0;
+	}
+
+	#niva-awards img.right {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+/* navbar fix for specific width */
+@media(max-width:991px) {
+	.navbar ul {
+        margin: 0 20%;
+    }
+}
